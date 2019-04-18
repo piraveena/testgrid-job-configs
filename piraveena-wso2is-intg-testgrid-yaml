@@ -9,10 +9,18 @@ infrastructureConfig:
   parameters:
     - JDK : ORACLE_JDK8
   includes:
-    - ADOPT_OPEN_JDK8
+    #- ADOPT_OPEN_JDK8
+    - CentOS-7.5
     #- Windows-2016
-    - MySQL-5.7
-    - RHEL-7.4
+    #- MySQL-5.7
+    #- RHEL-7.4
+    #- Oracle-SE2-12.1
+    - SQLServer-SE-14.00
+    #- Postgres-10.5
+    #- Postgres-9.6
+    #- Oracle-SE2-11.2
+    - CorrettoJDK-8
+    #- OracleJDK-8
   provisioners:
     - name: dev-wso2is-intg-deployment
       remoteRepository: "git@github.com:wso2/testgrid.git"
