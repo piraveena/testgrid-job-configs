@@ -18,7 +18,7 @@ infrastructureConfig:
     #- SQLServer-SE-14.00
     #- Postgres-10.5
     #- Postgres-9.6
-    #- Oracle-SE2-11.2https://github.com/wso2/product-is.git
+    #- Oracle-SE2-11.2
     #- CorrettoJDK-8
     #- OracleJDK-8
   provisioners:
@@ -47,7 +47,7 @@ scenarioConfigs:
     file: integration-tests/test.sh
     inputParameters:
       PRODUCT_CODE: wso2is
-      PRODUCT_GIT_URL: 
+      PRODUCT_GIT_URL: https://github.com/wso2/product-is.git
       PRODUCT_GIT_BRANCH: master
       PRODUCT_DIST_DOWNLOAD_API: https\://wso2.org/jenkins/job/products/job/product-is/lastRelease/api/
       INFRA_LOCATION: workspace/testgrid
