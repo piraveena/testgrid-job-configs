@@ -10,8 +10,8 @@ infrastructureConfig:
     - JDK : ORACLE_JDK8
   includes:
     - ADOPT_OPEN_JDK8
-    - CentOS-7.5
-    #- Windows-2016
+    #- CentOS-7.5
+    - Windows-2016
     - MySQL-5.7
     #- RHEL-7.4
     #- Oracle-SE2-12.1
@@ -40,7 +40,7 @@ infrastructureConfig:
             ProductName: "wso2-is"
             WSO2InstanceType: "c3.4xlarge"
 scenarioConfigs:
-  - remoteRepository: "git@github.com:wso2/identity-test-integration.git"
+  - remoteRepository: "git@github.com:mefarazath/identity-test-integration.git"
     testType: TESTNG
     name: integration-tests
     description: "integration tests"
