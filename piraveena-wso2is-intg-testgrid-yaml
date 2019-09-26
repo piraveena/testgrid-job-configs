@@ -14,8 +14,8 @@ infrastructureConfig:
     #- Windows-2016
     #- MySQL-5.7
     #- RHEL-7.4
-    - Oracle-SE2-12.1
-    #- SQLServer-SE-14.00
+    #- Oracle-SE2-12.1
+    - SQLServer-SE-14.00
     #- Postgres-10.5
     #- Postgres-9.6
     #- Oracle-SE2-11.2
