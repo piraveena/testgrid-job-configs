@@ -38,7 +38,8 @@ infrastructureConfig:
             ProductName: "wso2-is"
             WSO2InstanceType: "c3.4xlarge"
 scenarioConfigs:
-  - remoteRepository: "git@github.com:piraveena/identity-test-integration.git"
+  #- remoteRepository: "git@github.com:piraveena/identity-test-integration.git"
+  - remoteRepository: "git@github.com:wso2/identity-test-integration.git"
     testType: TESTNG
     name: integration-tests
     description: "integration tests"
