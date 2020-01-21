@@ -38,7 +38,6 @@ infrastructureConfig:
             ProductName: "wso2-is"
             WSO2InstanceType: "c3.4xlarge"
 scenarioConfigs:
-  #- remoteRepository: "git@github.com:piraveena/identity-test-integration.git"
   - remoteRepository: "git@github.com:wso2/identity-test-integration.git"
     testType: TESTNG
     name: integration-tests
@@ -58,7 +57,7 @@ scenarioConfigs:
       SQL_DRIVERS_LOCATION_UNIX: /opt/testgrid/sql-drivers/
       SQL_DRIVERS_LOCATION_WINDOWS: /testgrid/sql-drivers
       DBUsername: wso2carbon
-      PRODUCT_GIT_BRANCH: master
+      #PRODUCT_GIT_BRANCH: master
       LATEST_PRODUCT_RELEASE_API: https\://wso2.org/jenkins/job/products/job/product-is/lastRelease/api/
       LATEST_PRODUCT_BUILD_ARTIFACTS_API: https://wso2.org/jenkins/job/products/job/product-is/lastStableBuild/mavenArtifacts/api/
       USE_CUSTOM_TESTNG: FALSE
