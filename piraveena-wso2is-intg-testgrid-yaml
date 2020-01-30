@@ -54,5 +54,5 @@ scenarioConfigs:
       LATEST_PRODUCT_BUILD_ARTIFACTS_API: https://wso2.org/jenkins/job/products/job/product-is/lastStableBuild/mavenArtifacts/api/
       USE_CUSTOM_TESTNG: FALSE
       WUM_CHANNEL: full
-      WUM_PRODUCT_VERSION: 5.8.0
+      WUM_PRODUCT_VERSION: 5.7.0
       keyFileLocation: "/testgrid/testgrid-home/testgrid-key.pem"
